@@ -1,0 +1,21 @@
+name: JoinLeaveMessage
+version: 1.0.0
+main: fr.yourname.joinleavemessage.JoinLeaveMessagePlugin
+api-version: '1.21'
+author: YourName
+description: Custom join, first join, leave and private messages for your server.
+softdepend: [LuckPerms]
+commands:
+  joinleavemessage:
+    description: Reload the JoinLeaveMessage configuration.
+    usage: /joinleavemessage reload
+    aliases: [jlm]
+    permission: joinleavemessage.reload
+  jlm:
+    description: Alias for /joinleavemessage
+    usage: /jlm reload
+    permission: joinleavemessage.reload
+permissions:
+  joinleavemessage.reload:
+    description: Allows reloading the plugin configuration.
+    default: op

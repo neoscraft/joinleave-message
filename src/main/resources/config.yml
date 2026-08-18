@@ -1,0 +1,20 @@
+# JoinLeaveMessage configuration
+# Use %player% to insert the player's name.
+# Use %luckperms_prefix% / %luckperms_suffix% / %luckperms_group_name% when LuckPerms is installed.
+# Colors work with & as in Minecraft.
+# Each value can contain multiple lines in a list.
+
+joinMessage:
+  - "&8[%luckperms_prefix%&8] &e%player% &aest arrivé sur le serveur !"
+  - "&7Bonne aventure sur le serveur."
+
+firstJoinMessage:
+  - "&6Bienvenue pour la première fois, %luckperms_prefix% &e%player%&6 !"
+  - "&aNous sommes ravis de te voir."
+
+privateMessage:
+  - "&bBonjour %luckperms_prefix% &e%player%&b !"
+  - "&7Tu as rejoint le serveur."
+
+leaveMessage:
+  - "&c%luckperms_prefix% %player% a quitté le serveur."
