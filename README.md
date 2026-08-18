@@ -49,3 +49,5 @@ The JAR is generated in the `target/` folder.
 2. Copy the generated JAR to your server's `plugins/` folder.
 3. Ensure LuckPerms is installed if you want rank prefixes in the messages.
 4. Start the server or reload the plugin with `/joinleavemessage reload`.
+
+> Modrinth : https://modrinth.com/plugin/joinleave-message
